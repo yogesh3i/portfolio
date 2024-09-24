@@ -1,0 +1,205 @@
+/* General Styles */
+* {
+    box-sizing: border-box; /* Includes padding and border in total width/height */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin: 0.5em 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    font-size: 1rem;
+}
+
+.project a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.project a:hover {
+    color: #575757;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #575757;
+}
+
+.profile-photo {
+    position: absolute;
+    top: 20px; /* Adjust this value as needed */
+    left: 20px; /* Adjust this value as needed */
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Makes the image round; remove if not desired */
+}
+
+.project-image {
+    width: 60px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Reduce space between image and text */
+    vertical-align: middle; /* Align image with text */
+    border-radius: 9px;
+}
+
+.project-card {
+    background-color: rgb(4, 20, 11);
+    padding: 1px; /* You can also adjust this padding if needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.welcome-message {
+    position: absolute; /* Keep it absolute */
+    top: 117px; /* Adjust this value to move it vertically */
+    left: 217px; /* Adjust this value to position it horizontally */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    padding: 10px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
+    color: #32e80e; /* Text color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.header-image {
+    width: 400px; /* Adjust width as needed */
+    height: 100px; /* Maintain aspect ratio */
+    position: absolute; /* Position it relative to the nearest positioned ancestor */
+    top: 10px; /* Adjust this value as needed */
+    right: 20px; /* Adjust this value as needed */
+    border-radius: 9px; /* Optional rounded corners */
+}
+
+
+/* Footer */
+footer {
+    width: 100%; /* Full width */
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative; /* Set positioning */
+}
+
+footer p {
+    margin: 0; /* Remove any margin */
+}
